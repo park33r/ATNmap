@@ -140,7 +140,7 @@ while True:
 
 
             if selectorPuerto == '2':
-                class ComandosPuertos2:
+                class ComandosPuertos1:
                     def __init__(self,c2,c3,c4,c5,c6):
 
                         self.versionSistema = c2
@@ -150,8 +150,8 @@ while True:
                         self.vervosidad = c6
                         self.final = 'nmap -sS '+c2+' '+c3+' '+c4+' '+c5+' '+c6
 
-                comando2 = ComandosPuertos2(versionSistema,puerto,noPing,host,vervosidad)
-                print(chr(27)+"[3;32m"'EJECUTANDO COMANDO =========> '+ comando2.final)+chr(27)+"[0m"
+                comando1 = ComandosPuertos1(versionSistema,puerto,noPing,host,vervosidad)
+                print(chr(27)+"[3;32m"'EJECUTANDO COMANDO =========> '+ comando1.final)+chr(27)+"[0m"
                 os.system(comando1.final)
                 print(chr(27)+"[3;32m"'''
                         CERRADO: recibimos RST
