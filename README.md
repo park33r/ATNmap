@@ -2,15 +2,6 @@
 Asistente de Trabajo de Nmap
 
 
-primero instalamos el paquete os
-
-en la terminal escribimos:
-
-    pip install os-sys
-    
-    o
-    
-    pip3 install os-sys
     
     
 para iniciar el asistente en la terminal estando en la carpeta escribimos:
